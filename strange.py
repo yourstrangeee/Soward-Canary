@@ -542,7 +542,7 @@ async def main():
 
         async def start_bot():
             try:
-                await bot.start("MTI5MTc2NzQ0MDUzNTA2NDY2Ng.GtmEyq.tHJN1urfGFZsfBfocnyb2BTfigAY0lK9uqKHJQ", reconnect=True)
+                await bot.start("", reconnect=True)
             except KeyboardInterrupt:
                 logger.error("Bot has been stopped")
             except discord.RateLimited as e:
